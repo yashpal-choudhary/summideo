@@ -18,6 +18,10 @@ Summideo is a video summarizer where in you can upload any video from local syst
 
 ``` pip3 install -r requirements.txt```
 
+- Apply the migrations
+
+``` python3 manage.py migrate```
+
 - Now run the server
 
 ```python3 manage.py runserver```
