@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUMMIDEO</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+    <!-- Hero start  -->
+    <section class="hero is-link is-fullheight has-background-danger">
+            <div class="hero-head has-background-warning">
+                    <nav class="navbar">
+                      <div class="container">
+                        <div class="navbar-brand">
+                          <a class="navbar-item">
+                            <img src="{% static "videoSummarizer/logo/mylogo.png" %}" alt="Logo">
+                          </a>
+                          <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </span>
+                        </div>
+                        <div id="navbarMenuHeroB" class="navbar-menu">
+                          <div class="navbar-end">
+                            <a class="navbar-item is-active has-background-warning has-text-dark">
+                              Home
+                            </a>
+                            <a class="navbar-item has-text-dark">
+                              About
+                            </a>
+                            <span class="navbar-item">
+                              <a class="button is-info is-inverted" href="">
+                                <span class="icon">
+                                  <i class="fab fa-github"></i>
+                                </span>
+                                <span>Download</span>
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+        <div class="hero-body">
+          <div class="container">
+            <p class="title has-text-centered is-1">
+              <img src="{% static "videoSummarizer/logo/mylogo.png" %}">
+            </p>
+            <p class="subtitle is-8 has-text-centered">
+              Summarize your video to any duration.
+            </p>
+            <div class="columns summarize-buttons has-text-centered">
+              <div class="column is-full ">
+                  <a class="button is-success is-rounded is-medium has-background-warning has-text-dark" href="/main">Upload Video To Summarize</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Hero end -->
+</body>
+</html>
