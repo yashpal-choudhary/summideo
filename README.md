@@ -31,7 +31,7 @@ Summideo is a video summarizer where in you can upload any video from local syst
 
 # Screenshots
 
-![screenshot1](screenshots/first.png)
+![screenshot1](screenshots/first.PNG)
 
 ![screenshot2](screenshots/main.png)
 
