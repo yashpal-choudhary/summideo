@@ -14,7 +14,7 @@ Summideo is a video summarizer where in you can upload any video from local syst
 
 # How to fire it up? 
 
-- Gotta imstall the requirements first
+- Gotta install the requirements first
 
 ``` pip3 install -r requirements.txt```
 
